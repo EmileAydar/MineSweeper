@@ -1,0 +1,49 @@
+body{
+
+    background-color: #125459;
+    color: #1db9f2;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+hl{
+    font-size: 20pt;
+    font-weight: normal;
+}
+
+
+#gameBoard{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#gameBoard tr td{
+    border: 1px solid #fff;
+    background-color: #1db9f2;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#gameBoard tr td.active{
+    background-color: #333;
+
+}
+
+#gameBoard tr td.mine{
+    background-color: #d84;
+
+}
+
+button{
+    margin: 12px 0;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
